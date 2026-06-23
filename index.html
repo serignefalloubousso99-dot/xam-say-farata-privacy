@@ -211,7 +211,12 @@
       <div class="icon-box">🔔</div>
       <h2>Notifications</h2>
     </div>
-    <p>L'autorisation de notifications est utilisée uniquement pour vous envoyer les rappels de prière que vous avez activés. Ces rappels sont programmés localement sur votre téléphone — aucun serveur externe n'est impliqué dans leur envoi. Vous pouvez les désactiver à tout moment depuis les paramètres de l'application.</p>
+    <p>Les notifications servent à deux usages :</p>
+    <ul>
+      <li>Rappels de prière : programmés localement sur votre téléphone, sans serveur externe. Vous pouvez les désactiver à tout moment dans les paramètres.</li>
+      <li>Annonces et rappels de l'équipe : si vous acceptez les notifications, un identifiant technique anonyme (jeton de notification), le type d'appareil (Android/iOS) et la date de dernière activité sont enregistrés sur notre service Supabase. Ce jeton ne contient aucune information personnelle et sert uniquement à vous envoyer ces messages.</li>
+      <li>Ce jeton est supprimé si vous désactivez les notifications ou désinstallez l'application.</li>
+    </ul>
   </div>
 
   <div class="section">
@@ -241,10 +246,11 @@
       <div class="icon-box">🖥️</div>
       <h2>Services tiers</h2>
     </div>
-    <p>L'application utilise Supabase pour deux usages uniquement :</p>
+    <p>L'application utilise Supabase pour les usages suivants uniquement :</p>
     <ul>
-      <li>Mise à jour du contenu islamique (questions de quiz, cours) — aucune donnée personnelle transmise.</li>
+      <li>Mise à jour du contenu islamique (questions de quiz, cours, annonces) — aucune donnée personnelle transmise.</li>
       <li>Mode Battle en temps réel — pseudo anonyme, score et identifiant de partie uniquement.</li>
+      <li>Envoi des notifications — jeton de notification anonyme uniquement.</li>
     </ul>
   </div>
 
@@ -256,6 +262,7 @@
     <ul>
       <li>Supprimer toutes vos données locales : allez dans Paramètres → "Réinitialiser l'application".</li>
       <li>Données Battle : supprimées automatiquement à la fin de chaque partie.</li>
+      <li>Jeton de notification : supprimé si vous désactivez les notifications ou désinstallez l'application.</li>
       <li>Pour toute demande concernant vos données, contactez-nous via la page "Nous contacter" dans l'application.</li>
       <li>Vous avez le droit d'accéder à vos données, de les corriger ou de les supprimer à tout moment.</li>
     </ul>
